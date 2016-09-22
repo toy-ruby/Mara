@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    ../Permutation/Permutation/Permute.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    ../Permutation/Permutation/Permute.h
 
 FORMS    += mainwindow.ui
